@@ -6,9 +6,9 @@ use Slim\Factory\AppFactory;
 require '../vendor/autoload.php';
 
 $app = new \Slim\App;
-require '../src/routes/usuario.php';
+//require '../src/routes/usuario.php';
 //require '../src/routes/prueba.php';
-//require '../src/routes/cliente.php';
+require '../src/routes/cliente.php';
 
 // Prueba Define app routes
 /*$app->get('/hello/{name}', function (Request $request, Response $response, $args) {
